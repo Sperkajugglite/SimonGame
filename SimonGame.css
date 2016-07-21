@@ -1,0 +1,312 @@
+body {
+  font-size: 62.5%;
+  font-family: 'Alfa Slab One';
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(http://res.cloudinary.com/santiago-g-mez/image/upload/v1467996274/bg_texture___wood_by_nortago_ap41ab.jpg);
+  text-align: center;
+}
+
+#simon {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+  border: solid black 20px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  overflow: hidden;
+  margin: 3% auto;
+  box-shadow: 0px 0px 5px black;
+}
+
+#top, #bottom {
+  display: block;
+  width: 500px;
+}
+
+#top div, #bottom div {
+  display: inline-block;
+  width: 230px;
+  height: 230px;
+  float: left;
+  margin: 0;
+}
+
+#green {
+  background-color: #0cc90b;
+  border-right:10px solid black;
+  border-bottom:10px solid black;
+}
+
+#red {
+  background-color: #a33131;
+  border-left:10px solid black;
+  border-bottom:10px solid black;
+}
+#yellow {
+  background-color: #c7bd40;
+  border-right:10px solid black;
+  border-top:10px solid black;
+}
+#blue {
+  background-color: #34b1d5;
+  border-left:10px solid black;
+  border-top:10px solid black;
+}
+
+#middle {
+  position: relative;
+  background-color: #cfcfcf;
+  border: 10px solid black;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 105px auto;
+  text-align: center;
+}
+#middle h1 {
+  position: absolute;
+  font-size: 8em;
+  margin: 40px 28px 0 28px;
+}
+
+#middle #items-div{
+  position: absolute;
+  margin: 120px 33px 0px 33px;
+  /*background-color: white;*/
+  font-size: 2em;
+}
+
+#middle #items-div div{
+  display: inline;
+  float: left;
+  width: 50px;
+  height: 50px;
+  /*background-color: green;*/
+}
+#count-div{
+  margin-right: 5px;
+}
+
+#count-div #count {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 3px solid black;
+  margin: 0;
+  background-color: #31060d;
+  /* Used photoshop to get the exact same colors*/
+}
+
+#count-div .off{
+  color: purple;
+}
+#count-div .on{
+  color: #da1430;
+}
+#start-div{
+  margin-right: 5px;
+}
+#start-div #start{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: red;
+  box-shadow: 0px 0px 5px black;
+  border: 3px solid black;
+}
+#start-div #start:active{
+  box-shadow: none;
+}
+
+#strict-div #strict{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid black;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: yellow;
+  box-shadow: 0px 0px 5px black;
+}
+#strict-indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #31060d;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  float: right;
+}
+#strict-div .on {
+  background-color: #da1430;
+}
+#strict-div #strict:active{
+  box-shadow: none;
+}
+
+#switch {
+  postion: absolute;
+  width: 45px;
+  height: 20px;
+  background-color: black;
+  margin: 180px 90px 0px 90px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+#slider {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #3895db;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  top: 2px;
+}
+
+#slider:hover {
+  cursor: pointer;
+}
+
+#switch .off {
+  left: 2px;
+}
+
+#switch .on {
+  left: 27px;
+}
+/*@media only screen and (max-width: 550px) {
+#simon {
+  background-color: gray;
+  width: 350px;
+  height: 350px;
+  border: solid black 10px;
+}
+
+#top, #bottom {
+  width: 350px;
+}
+
+#top div, #bottom div {
+  width: 165px;
+  height: 165px;
+}
+
+#green {
+  border-right:5px solid black;
+  border-bottom:5px solid black;
+}
+
+#red {
+  border-left:5px solid black;
+  border-bottom:5px solid black;
+}
+#yellow {
+  border-right:5px solid black;
+  border-top:5px solid black;
+}
+#blue {
+  border-left:5px solid black;
+  border-top:5px solid black;
+}
+
+#middle {
+  border: 5px solid black;
+  width: 175px;
+  height: 175px;
+  margin: 77.5px auto;
+}
+#middle h1 {
+  font-size: 4em;
+  margin: 10px 42.9px 0 42.9px;
+}
+
+#middle #items-div{
+  margin: 50px;
+  font-size: 1.5em;
+}
+
+#middle #items-div div{
+  width: 35px;
+  height: 35px;
+}
+#count-div{
+}
+
+#count-div #count {
+  width: 35px;
+  height: 20px;
+  border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -webkit-border-radius: 2.5px;
+  border: 1.8px solid black;
+}
+#start-div{
+}
+#start-div #start{
+  width: 15px;
+  height: 15px;
+  border: 1.8px solid black;
+}
+
+#strict-div #strict{
+  width: 15px;
+  height: 15px;
+  border: 1.8px solid black;
+}
+#strict-indicator {
+  width: 5px;
+  height: 5px;
+  border: 1.3px solid black;
+}
+#switch {
+  width: 45px;
+  height: 20px;
+  background-color: black;
+  margin: 180px 90px 0px 90px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+#slider {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #3895db;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  top: 2px;
+}
+
+#slider:hover {
+  cursor: pointer;
+}
+
+#switch .off {
+  left: 2px;
+}
+
+#switch .on {
+  left: 27px;
+}
+}
+*/
+/*TODO: fix small screen sizes*/
+/*need to change width limit too*/
+/*so far works until items div*/
