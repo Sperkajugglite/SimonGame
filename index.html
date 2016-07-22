@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sperkajugglite</title>
+    <title>Santiago Gómez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar navbar-default">
+      <ul>
+        <li>About</li>
+        <li>Proyects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <section id="about">
+      <!--webstite background-img-->
+      <h1>Web design</h1>
+      <p>
+        This is a paragraph.
+      </p>
+    </section>
+    <section id="proyects">
+      <ul>
+        <li>
+          <h2>Proyect 1</h2>
+          <img src="" alt="" />
+        </li>
+        <li>
+          <h2>Proyect 2</h2>
+          <img src="" alt="" />
+        </li>
+        <li>
+          <h2>Proyect 3</h2>
+          <img src="" alt="" />
+        </li>
+        <li>
+          <h2>Proyect 4</h2>
+          <img src="" alt="" />
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <form>
+        <label>Name</label>
+        <input name="name" placeholder="Name" />
+        <label>Email</label>
+        <input name="email" type="email" placeholder="Email" />
+        <label>Message</label>
+        <textarea placeholder="Message"></textarea>
+        <input id="submit" name="submit" type="submit" value="Submit">
+      </form>
+    </section>
+    <script type="text/javascript" src="functions.js"></script>
   </body>
 </html>
