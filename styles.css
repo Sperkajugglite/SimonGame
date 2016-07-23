@@ -5,11 +5,16 @@ body {
   text-align: left;
   color: white;
 }
+
+a {
+  text-decoration: none;
+}
+
 nav {
-  background: #575555;
-  color: black;
+  background: #424141;
   position: fixed;
   height: 100px;
+  widht: 100%;
 }
 
 nav ul {
@@ -18,4 +23,5 @@ nav ul {
 
 nav li {
   display: inline;
+  color: white;
 }
