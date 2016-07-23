@@ -5,3 +5,14 @@ body {
   text-align: left;
   color: white;
 }
+nav {
+  background: #575555;
+  color: black;
+  position: fixed;
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+}
