@@ -1,21 +1,18 @@
-body {
-  background: black;
-  font-family: Avenir;
-  font-size; 62.5%;
-  text-align: left;
-  color: white;
+html, body {
+  height: 100%;
 }
 
-a {
-  text-decoration: none;
+body {
+  font-size: 62.5%;
+  font-family: Verdana;
+  text-align: left;
+  background-color: black;
   color: white;
 }
 
 nav {
-  background: #424141;
-  position: fixed;
-  height: 100px;
-  widht: 100%;
+  background: white;
+  color: black;
 }
 
 nav ul {
@@ -23,6 +20,6 @@ nav ul {
 }
 
 nav li {
-  display: inline;
-  font-size: 2em;
+  display: inline-block;
+  float: left;
 }
